@@ -1,0 +1,37 @@
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title> creer un compte</title>
+		<link rel="stylesheet" type="text/css" href="../../style/creation.css">
+	</head>
+	<body>
+	<h1> creer un compte admin</h1>
+	<form id="signup-form" method="post" action="http://localhost/inclusion/creationCompteAbonne.php">
+	<label for="username"> username:</label>
+	<input type="text" id="username" name="username" required>
+	<label for="email"> id: </label>
+	<input type="email" id="email" name="email" placeholder="@email" required>
+	<label for="password"> mot de passe:</label>
+	<input type="password" name="password" id="password" required>
+    <div class form group >
+    <label for="sexe" required> Genre:</label>
+    <select id="sexe" name="sexe" required>
+    <option value="">--vide--</option>	
+    <option value="M">masculin</option>	
+    <option value="F"> feminin</option>
+    <option value="Autre">autre</option>
+</select>
+
+    </div>
+
+	<button type="submit"><a href="creation compte.html"> creer compte</button>
+	<button type="submit"><a href="s'authentifier.html"> se connecter </button>
+	</form>
+	<script src="creer.js">
+		
+		
+	</script>
+	</body>
+	</html>

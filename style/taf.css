@@ -1,0 +1,53 @@
+body{
+	text-align: center;
+	font-family: arial, sans-serif;
+	background-color: #hotpink;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	margin-bottom: 20px;
+}
+#meme-container {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+#uploaded-image{
+	width: 300px;
+	height: auto;
+	margin-bottom: 10px;
+}
+#text-input {
+width: 300%;
+margin-bottom: 10px;
+padding: 10px;	
+}
+#add-text-button{
+	margin-left: 30px;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	color: #fff;
+	background-color: #007bff;
+	
+}
+#download-button,#share-button {
+	margin-left: 10px;
+	padding: 10px 20px;
+	background-color: #28a745;
+	color: #fff;
+	border-radius: 5px ;
+	cursor: pointer;
+	margin-right: 10px;
+}
+button:hover{
+opacity: 0.8;
+
+}
+button:active{
+	transform: scale(0.95);
+}

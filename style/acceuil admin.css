@@ -1,0 +1,70 @@
+body{
+	font-family: arial, sans-serif;
+	background-color: #f5f5f5;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+h1, h2 {
+	color: #333;
+	text-align: center;
+}
+.user-management, add-user{
+background-color: #fff;
+padding: 20px;
+margin-bottom: 20px;
+}
+.user-list{
+	list-style: none;
+	padding: 0;
+}
+.user{
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.username{
+	flex-grow: 1;
+}
+.btn-disable,
+.btn-interact{
+margin-left: 10px;
+padding: 5px 10px;
+background-color: #3498db;
+color: #fff;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+transition: background-color 0.3 ease;
+}
+
+.btn-disable:hover,
+.btn-interact:hover{
+	background-color: #2980b9;
+}
+.add-user form{
+	display: flex;
+	flex-direction: column;
+}
+.add-user input{
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+..add-user button{
+	padding: 10px 20px;
+	background-color: #3498db;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition:background-color 0.3 ease ;
+}
+.add-user button:hover{
+	background-color: #2980b9;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title> s'authentifier</title>
+		<link rel="stylesheet" type="text/css" href="../../style/creation.css">
+	</head>
+	<body>
+	<h1> s'authentifier</h1>
+	<form id="login-form" method="post" action="http://localhost/devoir test/inclusion/authentificationAdmin.php">
+	<label for="email"> id: </label>
+	<input type="email" id="email" name="email" placeholder="@email" required>
+	<label for="password"> mot de passe:</label>
+	<input type="password" name="password" id="password" required>
+	<button type="submit"> se connecter </button>
+	</form>
+	<script src="authen.js">
+		
+		document.getElementById('login-form').addEventListener("submit",function(event)
+		{
+			event.preventDefault();
+			var email= document.getElementById("email").value;
+			var pasword= document.getElementById("password").value;
+			console.log("id:" +email);
+			console.log("mot de passe:" +password);
+
+
+		});
+	</script>
+	</body>
+	</html>
